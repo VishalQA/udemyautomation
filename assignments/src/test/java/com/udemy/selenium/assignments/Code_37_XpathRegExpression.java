@@ -13,23 +13,15 @@ public class Code_37_XpathRegExpression {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C://work//chromedriver.exe");
-		
-		WebDriver driver =new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\jaju_v\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
 		driver.get("http://rediff.com");
 		driver.findElement(By.cssSelector("a[title*='Sign in']")).click();
 		driver.findElement(By.xpath("//input[@id='login1']")).sendKeys("hello");
 		driver.findElement(By.cssSelector("input#password")).sendKeys("goodbye");
 		driver.findElement(By.xpath("//input[contains(@name,'procee')]")).click();
 		
-		
-		
 	
-		
-		
-		
-		
-		
 	}
 
 }

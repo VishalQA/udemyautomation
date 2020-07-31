@@ -29,8 +29,8 @@ ch.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 //Belows to your local browser
 ChromeOptions c= new ChromeOptions();
 c.merge(ch);
-System.setProperty("webdriver.chrome.driver", "");
-WebDriver driver=new ChromeDriver(c);
+System.setProperty("webdriver.chrome.driver", "C:\\Users\\jaju_v\\Downloads\\chromedriver_win32\\chromedriver.exe");
+WebDriver driver=new ChromeDriver();
 
 
 

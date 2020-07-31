@@ -26,11 +26,10 @@ public class Code_74_AddCartItems {
 
 	// TODO Auto-generated method stub
 
-	System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe");
-
-
-
-	WebDriver driver=new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\jaju_v\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		
+		driver.manage().window().maximize();
 
 
 

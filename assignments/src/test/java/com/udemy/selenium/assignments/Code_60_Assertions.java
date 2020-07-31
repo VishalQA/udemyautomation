@@ -15,10 +15,9 @@ import org.testng.Assert;
 public class Code_60_Assertions {
 
 	public static void main(String[] args) {
-
-		System.setProperty("webdriver.chrome.driver", "C://work//chromedriver.exe");
-
-WebDriver driver =new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\jaju_v\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
 
 driver.get("http://spicejet.com"); //URL in the browser
 

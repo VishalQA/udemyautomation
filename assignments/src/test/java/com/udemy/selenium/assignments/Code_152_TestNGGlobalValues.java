@@ -13,12 +13,6 @@ import java.util.Properties;
 public class Code_152_TestNGGlobalValues {
 
 
-
-
-public class GlobalValuesDrive {
-
-
-
 public static void main(String[] args) throws IOException {
 
 // TODO Auto-generated method stub
@@ -27,7 +21,7 @@ public static void main(String[] args) throws IOException {
 
 Properties prop=new Properties();
 
-FileInputStream fis =new FileInputStream("C:\\Users\\Owner\\CoreJava\\CoreJava\\src\\data.properties");
+FileInputStream fis =new FileInputStream("C:\\Users\\jaju_v\\git\\udemyautomation\\assignments\\src\\test\\java\\com\\udemy\\selenium\\assignments\\data.properties");
 
 prop.load(fis);
 
@@ -39,7 +33,7 @@ prop.setProperty("browser", "firefox");
 
 System.out.println(prop.getProperty("browser"));
 
-FileOutputStream fos =new FileOutputStream("C:\\Users\\Owner\\CoreJava\\CoreJava\\src\\data.properties");
+FileOutputStream fos =new FileOutputStream("C:\\Users\\jaju_v\\git\\udemyautomation\\assignments\\src\\test\\java\\com\\udemy\\selenium\\assignments\\data.properties");
 
 prop.store(fos, null);
 
@@ -47,6 +41,6 @@ prop.store(fos, null);
 
 
 
-}
+
 }
 

@@ -25,10 +25,9 @@ public static void main(String[] args) {
 
 
 String text="Rahul";
+System.setProperty("webdriver.chrome.driver", "C:\\Users\\jaju_v\\Downloads\\chromedriver_win32\\chromedriver.exe");
+WebDriver driver=new ChromeDriver();
 
-System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe");
-
-WebDriver driver = new ChromeDriver();
 
 driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 

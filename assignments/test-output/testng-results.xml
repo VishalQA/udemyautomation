@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33" started-at="2020-07-30T18:13:14Z" finished-at="2020-07-30T18:13:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="33" started-at="2020-07-30T18:13:14Z" finished-at="2020-07-30T18:13:14Z">
+      <class name="com.udemy.selenium.assignments.Code_138_TestNG">
+        <test-method status="PASS" signature="Cookies()[pri:0, instance:com.udemy.selenium.assignments.Code_138_TestNG@61ca2dfa]" name="Cookies" is-config="true" duration-ms="8" started-at="2020-07-30T18:13:14Z" finished-at="2020-07-30T18:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cookies -->
+        <test-method status="PASS" signature="UseridGeneration()[pri:0, instance:com.udemy.selenium.assignments.Code_138_TestNG@61ca2dfa]" name="UseridGeneration" is-config="true" duration-ms="0" started-at="2020-07-30T18:13:14Z" finished-at="2020-07-30T18:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UseridGeneration -->
+        <test-method status="PASS" signature="FlightBooking()[pri:0, instance:com.udemy.selenium.assignments.Code_138_TestNG@61ca2dfa]" name="FlightBooking" duration-ms="4" started-at="2020-07-30T18:13:14Z" finished-at="2020-07-30T18:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightBooking -->
+        <test-method status="PASS" signature="Reportadding()[pri:0, instance:com.udemy.selenium.assignments.Code_138_TestNG@61ca2dfa]" name="Reportadding" is-config="true" duration-ms="1" started-at="2020-07-30T18:13:14Z" finished-at="2020-07-30T18:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportadding -->
+        <test-method status="PASS" signature="FlightCancel()[pri:0, instance:com.udemy.selenium.assignments.Code_138_TestNG@61ca2dfa]" name="FlightCancel" duration-ms="1" started-at="2020-07-30T18:13:14Z" finished-at="2020-07-30T18:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightCancel -->
+        <test-method status="PASS" signature="UseridGeneration()[pri:0, instance:com.udemy.selenium.assignments.Code_138_TestNG@61ca2dfa]" name="UseridGeneration" is-config="true" duration-ms="0" started-at="2020-07-30T18:13:14Z" finished-at="2020-07-30T18:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UseridGeneration -->
+        <test-method status="PASS" signature="Reportadding()[pri:0, instance:com.udemy.selenium.assignments.Code_138_TestNG@61ca2dfa]" name="Reportadding" is-config="true" duration-ms="1" started-at="2020-07-30T18:13:14Z" finished-at="2020-07-30T18:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportadding -->
+        <test-method status="PASS" signature="OpeningBrowser()[pri:0, instance:com.udemy.selenium.assignments.Code_138_TestNG@61ca2dfa]" name="OpeningBrowser" duration-ms="2" started-at="2020-07-30T18:13:14Z" finished-at="2020-07-30T18:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpeningBrowser -->
+        <test-method status="PASS" signature="UseridGeneration()[pri:0, instance:com.udemy.selenium.assignments.Code_138_TestNG@61ca2dfa]" name="UseridGeneration" is-config="true" duration-ms="0" started-at="2020-07-30T18:13:14Z" finished-at="2020-07-30T18:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UseridGeneration -->
+        <test-method status="PASS" signature="Reportadding()[pri:0, instance:com.udemy.selenium.assignments.Code_138_TestNG@61ca2dfa]" name="Reportadding" is-config="true" duration-ms="0" started-at="2020-07-30T18:13:14Z" finished-at="2020-07-30T18:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportadding -->
+        <test-method status="PASS" signature="Cookiesclose()[pri:0, instance:com.udemy.selenium.assignments.Code_138_TestNG@61ca2dfa]" name="Cookiesclose" is-config="true" duration-ms="0" started-at="2020-07-30T18:13:14Z" finished-at="2020-07-30T18:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cookiesclose -->
+      </class> <!-- com.udemy.selenium.assignments.Code_138_TestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

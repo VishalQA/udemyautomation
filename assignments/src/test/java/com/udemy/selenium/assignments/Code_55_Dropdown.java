@@ -23,9 +23,9 @@ public static void main(String[] args) throws InterruptedException {
 
 // TODO Auto-generated method stub
 
-System.setProperty("webdriver.chrome.driver", "C://work//chromedriver.exe");
-
-WebDriver driver =new ChromeDriver();
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\jaju_v\\Downloads\\chromedriver_win32\\chromedriver.exe");
+	WebDriver driver=new ChromeDriver();
+	driver.manage().window().maximize();
 
 driver.get("http://spicejet.com"); //URL in the browser
 

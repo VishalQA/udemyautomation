@@ -15,9 +15,9 @@ public class Code_31_XpathChrome {
 		// TODO Auto-generated method stub
 
 		//chromedriver.exe
-System.setProperty("webdriver.chrome.driver", "C://work//chromedriver.exe");
-		
-WebDriver driver =new ChromeDriver();
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\jaju_v\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
 driver.get("http://facebook.com"); //URL in the browser
 //driver.findElement(By.className("inputtext")).sendKeys("helloworld");
 /*driver.findElement(By.id("email")).sendKeys("Thisis my first code");

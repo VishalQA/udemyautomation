@@ -13,9 +13,9 @@ public class Code_36_CSSHTML {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C://work//chromedriver.exe");
-		
-		WebDriver driver =new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\jaju_v\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+
 		driver.get("http://facebook.com");
 		
 		////tagName[@attribute='value']  - xpath

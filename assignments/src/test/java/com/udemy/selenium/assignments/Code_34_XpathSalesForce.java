@@ -17,9 +17,8 @@ public class Code_34_XpathSalesForce {
 		// TODO Auto-generated method stub
 
 		//chromedriver.exe
-System.setProperty("webdriver.chrome.driver", "C://work//chromedriver.exe");
-		
-WebDriver driver =new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\jaju_v\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
 
 driver.get("https://login.salesforce.com/");
 driver.findElement(By.id("username")).sendKeys("hello");
@@ -27,23 +26,6 @@ driver.findElement(By.name("pw")).sendKeys("123456");
 //driver.findElement(By.className("button r4 wide primary")).click();//Error
 driver.findElement(By.xpath("//*[@id='Login']")).click();
 System.out.println(driver.findElement(By.cssSelector("div#error.loginError")).getText());
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 }

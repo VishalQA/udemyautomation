@@ -66,7 +66,7 @@ public class VJ_Code_100_Calender {
 		for(int i=0;i<count;i++)
 		{
 		String text=driver.findElements(By.className("ui-state-default")).get(i).getText();
-		if(text.equalsIgnoreCase(monthyear))
+		if(text.equalsIgnoreCase(date))
 		{
 		driver.findElements(By.className("ui-state-default")).get(i).click();
 		break;
