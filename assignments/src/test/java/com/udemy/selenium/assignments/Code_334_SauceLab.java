@@ -18,9 +18,9 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 public class Code_334_SauceLab {
 
 
-public static final String USERNAME = "rahul2";
+public static final String USERNAME = "vishal.mailbox1";
 
-  public static final String ACCESS_KEY = "xxxxx";
+  public static final String ACCESS_KEY = "579a59b6-be14-4443-8baa-01704d8310e0";
 
   public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub";
 
@@ -34,7 +34,7 @@ public static void main(String[] args) throws MalformedURLException {
 
 DesiredCapabilities caps = DesiredCapabilities.chrome();
 
-caps.setCapability("platform", "Windows 7");
+caps.setCapability("platform", "Windows 10");
 
 caps.setCapability("version", "51.0");
 

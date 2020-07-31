@@ -18,17 +18,18 @@ public class Code_176_DataDriven {
 
 	
 
-
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
 	//Identify Testcases coloum by scanning the entire 1st row
 	//once coloumn is identified then scan entire testcase coloum to identify purcjhase testcase row
 	//after you grab purchase testcase row = pull all the data of that row and feed into test
 
-	public ArrayList<String> getData(String testcaseName) throws IOException
-	{
+//	public ArrayList<String> getData(String testcaseName) throws IOException
+//	{
 	//fileInputStream argument
-	ArrayList<String> a=new ArrayList<String>();
+//	ArrayList<String> a=new ArrayList<String>();
 
-	FileInputStream fis=new FileInputStream("C://Users//rahul//Documents//demodata.xlsx");
+	FileInputStream fis=new FileInputStream("C:\\Users\\jaju_v\\Downloads\\Training_udemy_Automation\\Code_173_ExlData.xlsx");
 	XSSFWorkbook workbook=new XSSFWorkbook(fis);
 
 	int sheets=workbook.getNumberOfSheets();
@@ -64,7 +65,7 @@ public class Code_176_DataDriven {
 
 	Row r=rows.next();
 
-	if(r.getCell(coloumn).getStringCellValue().equalsIgnoreCase(testcaseName))
+	if(r.getCell(coloumn).getStringCellValue().equalsIgnoreCase("testcaseName"))
 	{
 
 	////after you grab purchase testcase row = pull all the data of that row and feed into test
@@ -76,38 +77,37 @@ public class Code_176_DataDriven {
 	if(c.getCellTypeEnum()==CellType.STRING)
 	{
 
-	a.add(c.getStringCellValue());
+//	a.add(c.getStringCellValue());
+//	}
+//	else{
+//
+//	a.add(NumberToTextConverter.toText(c.getNumericCellValue()));
+//
+//	}
 	}
-	else{
-
-	a.add(NumberToTextConverter.toText(c.getNumericCellValue()));
-
 	}
-	}
-	}
-
-
-	}
-
-
-
-
-
-
-
 
 
 	}
-	}
-	return a;
+
+
+
+
+
+
+
+
 
 	}
-
-	public static void main(String[] args) throws IOException {
-	// TODO Auto-generated method stub
-
-	}
-
 	}
 	
 
+	}
+
+	
+
+	}
+
+	
+	
+}

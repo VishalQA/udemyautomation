@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="target/classes" path="src/main/java">
+	<classpathentry excluding="resources/|resources/" kind="src" output="target/classes" path="src/main/java">
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="src" path="resources"/>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
 			<attribute name="test" value="true"/>
@@ -152,5 +153,9 @@
 	<classpathentry kind="lib" path="C:/Users/jaju_v/Downloads/selenium-java-4.0.0-alpha-6/lib/reactor-core-3.3.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="C:/Users/jaju_v/Downloads/selenium-java-4.0.0-alpha-6/lib/reactor-netty-0.9.6.RELEASE.jar"/>
 	<classpathentry kind="lib" path="C:/Users/jaju_v/Downloads/selenium-java-4.0.0-alpha-6/lib/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jaju_v/Downloads/xmlbeans-bin-3.1.0/xmlbeans-3.1.0/lib/resolver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jaju_v/Downloads/xmlbeans-bin-3.1.0/xmlbeans-3.1.0/lib/xmlbeans-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jaju_v/Downloads/xmlbeans-bin-3.1.0/xmlbeans-3.1.0/lib/xmlbeans-3.1.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jaju_v/Downloads/xmlbeans-bin-3.1.0/xmlbeans-3.1.0/lib/xmlbeans-3.1.0-sources.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

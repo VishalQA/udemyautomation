@@ -41,15 +41,15 @@ String path =System.getProperty("user.dir")+"\\reports\\index.html";
 
 ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 
-reporter.config().setReportName("Web Automation Results");
+reporter.config().setReportName("VJ Web Automation Results");
 
-reporter.config().setDocumentTitle("Test Results");
+reporter.config().setDocumentTitle("VJ Test Results");
 
 extent =new ExtentReports();
 
 extent.attachReporter(reporter);
 
-extent.setSystemInfo("Tester", "Rahul Shetty");
+extent.setSystemInfo("Tester", "Vishal Kumar");
 
 }
 
@@ -61,9 +61,8 @@ public void initialDemo()
 
 ExtentTest test= extent.createTest("Initial Demo");
 
-System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe");
-
-WebDriver driver =new ChromeDriver();
+System.setProperty("webdriver.chrome.driver", "C:\\Users\\jaju_v\\Downloads\\chromedriver_win32\\chromedriver.exe");
+WebDriver driver=new ChromeDriver();
 
 driver.get("https://rahulshettyacademy.com");
 
